@@ -51,3 +51,52 @@ print ("Lista inicial", lista5)
 print ("Elimina el número 30", lista5_1)
 print ("Elimina el último elemento", lista5_2)
 print ("Elimina el segundo elemento", lista5_3)
+
+#EJERCICIO PRACTICO 7
+lista6 = [10, 20, 30, 40, 50]
+#Verifica si el número 20 está en la lista
+print (20 in lista6)
+#Encuentra el índice del número 30
+print (lista6.index(30))
+#Cuenta cuántas veces aparece el número 20
+print (lista6.count(20))
+
+#EJERCICIO PRACTICO 8
+lista7 = [40, 10, 30, 20]
+print("Lista original", lista7)
+#Orden ascendente
+lista7.sort()
+print("Lista odenada", lista7)
+#Orden descendente
+lista7.sort(reverse=True)
+print("Lista en orden desendente", lista7)
+#Lista ordenada sin modificar la original.
+lista_ordenada =  sorted(lista7)
+print("Lista ordenada sin modificar la original", lista_ordenada)
+
+#EJERCICIO PRACTICO 9
+lista8 = [10, 20, 30, 40]
+lista8.reverse()
+print("Invertir una lista usando reverse()", lista8)
+lista_invertida = lista8[::-1]
+print ("Invertir una lista usando slicing", lista_invertida)
+
+#EJERCICIO PRACTICO 10
+lista9 = [10, 20, 30]
+#copiar una lista usando slicing
+Lista_slicing = lista9 [:]
+# copiarla una lista usando list()
+lista_list = list(lista9)
+#opiarla usando copy()
+lista_copy = lista9.copy()
+print ("lista usando slicing", Lista_slicing)
+print ("lista usando list()", lista_list)
+print ("lista usando Copy()", lista_copy)
+
+#EJERCICIO PRACTICO 10
+lista_vacia = []
+#Lista vacía y escribe "La lista está vacía" si no contiene datos.
+if not lista_vacia:
+    print ("La lista está vacía")
+else:
+    print ("La lista tiene elementos")
