@@ -26,7 +26,12 @@ def listar_animales():
     else:
         print("\nLista de animales registrados:")
         for i in range (len(nombre_animal)):
-            print(f"{i +1}. Nombre: {nombre_animal[i]}, Edad: {edades[i]}, Salud: {"Enfermo" if estado_salud[i] == "si" else "Sano"}")
+            if estado_salud[i] == "si":
+                x="enfermo" 
+            else:
+                x="Sano"
+                
+            print(f"{i +1}. Nombre: {nombre_animal[i]}, Edad: {edades[i]}, Salud: {x}")
 
 
 #main

@@ -12,6 +12,7 @@ while True:
            3.   Mostrar la información de todos los estudiantes.
            4.   Eliminar un estudiante por su nombre.
            5.   Salir
+           
            """)
     opciones = input ("Ingresa una opcion: ")
     if opciones == "1":
