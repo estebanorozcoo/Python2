@@ -1,4 +1,4 @@
-print ("Bienvenido a la plataforma de gestion de tu mascota")
+print ("Bienvenido a la plataforma para la gestion de tu mascota")
 
 nombre_animal = []
 edades = []
