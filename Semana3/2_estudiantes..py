@@ -2,7 +2,7 @@
 # diccionario = {"Esteban": {"telefono":1231233213, "nota":4}, "Daniel":{"telefono":1231233213, "nota":4}"
 # diccionario = {"Esteban": {"telefono":1231233213, "notas":{"p":1,"f":5,"s":3,"q":4}}, "Daniel":{"telefono":1231233213, "nota":4}"
 # diccionario ["Esteban"] ["notas"] ["q"] = 5 
-salon = [[1231231324,4],[1231231234,4]]
+
 estudiantes = {} 
 
 while True:
