@@ -1,0 +1,267 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #111;
+}
+
+/* Mensaje superior de descuento */
+.off {
+  background-color: #f3f3f3;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Barra de navegación superior */
+.superior_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  border-bottom: 1px solid #eee;
+}
+
+.s_n1 img,
+.s_n3 img {
+  cursor: pointer;
+}
+
+.s_n2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.s_n2 h1 {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+/* Iconos de usuario y bolsa */
+.s_n3 {
+  display: flex;
+  gap: 16px;
+}
+
+/* Barra de navegación inferior */
+.inferior_nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 12px 0;
+}
+
+.i_n1, .i_n2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.i_n1 a, .i_n2 a {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* MAIN */
+main.main {
+  padding: 40px 32px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Productos */
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  justify-content: center;
+  align-items: start;
+}
+
+.ar123 {
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 16px;
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.ar123:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.ar123 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ar123 > div:last-child {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h1{
+    display: none;
+}
+
+
+
+@media (max-width: 480px) {
+  /* Mensaje superior */
+  .off {
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  /* NAV superior */
+  .superior_nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .s_n2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s_n2 h1 {
+    font-size: 10px;
+    margin: 6px 0;
+  }
+
+  .s_n2 img {
+    width: 40px;
+    height: auto;
+  }
+
+  .s_n1 img,
+  .s_n3 img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .s_n3 {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  /* NAV inferior */
+  .inferior_nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .i_n1,
+  .i_n2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .i_n1 img,
+  .i_n2 img {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* MAIN */
+  main.main {
+    padding: 20px 10px;
+  }
+
+  main h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Productos */
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ar123 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+    width: 90%;
+    max-width: 320px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .ar123 .i1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .ar123 > div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .ar123 > div:last-child img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .ar123 {
+  width: 90%;
+  max-width: 320px;
+    }
+
+    .ar123 .i1 {
+  width: 100%;
+    }
+
+    .ar123 .i1 img {
+  width: 100%;
+  height: auto;
+    }
+
+}
+
+
