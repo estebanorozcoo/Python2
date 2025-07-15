@@ -1,0 +1,12 @@
+{
+  "name": "nombreapellido123",
+  "version": "1.0.0",
+  "description": "SPA para gestión de eventos",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0"
+  }
+}
