@@ -92,4 +92,4 @@ npm run dev
 
 ## 📬 Contacto
 
-¿Dudas o mejoras? Puedes escribirme a **juandavid@digitdeck.co**. 🚀
+¿Dudas o mejoras? Puedes escribirme a **......**. 🚀
