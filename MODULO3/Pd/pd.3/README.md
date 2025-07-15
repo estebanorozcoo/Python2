@@ -12,10 +12,10 @@ Esta es una **Single Page Application (SPA)** para gestionar eventos, con sistem
 
 ## 🧑‍💻 Datos del coder
 
-- **Nombre:** Juan David Sierra
-- **Clan:** Digit Deck
-- **Correo:** juandavid@digitdeck.co
-- **Documento:** 1111111111
+- **Nombre:**
+- **Clan:**
+- **Correo:** 
+- **Documento:** 
 
 ---
 
