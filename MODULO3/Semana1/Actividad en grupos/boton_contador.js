@@ -27,4 +27,3 @@ function actualizarPantalla() {
   contadorElemento.textContent = valorContador;
 }
 
-ggggg
