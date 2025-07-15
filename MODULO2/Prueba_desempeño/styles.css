@@ -1,6 +1,4 @@
-/* ================================================
-   Estilos base - Tipografía, colores y fondo
-================================================ */
+/*Estilos base - Tipografía, colores y fondo*/
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -9,9 +7,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ================================================
-   Encabezado - Sticky, sombra y distribución con Flexbox
-================================================ */
+/*Encabezado - Sticky, sombra y distribución con Flexbox*/
 header {
   background: #1c1c1c;
   padding: 1rem 2rem;
@@ -30,9 +26,7 @@ header h1 {
   color: #00ffcc;
 }
 
-/* ================================================
-   Navegación - Flex y transiciones suaves
-================================================ */
+/* Navegación - Flex y transiciones suaves*/
 nav ul {
   list-style: none;
   display: flex;
@@ -52,25 +46,21 @@ nav a:hover {
   color: #00ffcc;
 }
 
-/* ================================================
-   Secciones generales
-================================================ */
-.seccion {
+/*Secciones generales*/
+.section {
   padding: 4rem 2rem;
   text-align: center;
 }
 
-#presentacion p {
+#presentation p {
   font-size: 1.2rem;
   max-width: 700px;
   margin: 0 auto;
   animation: fadeIn 2s ease-in-out;
 }
 
-/* ================================================
-   Grid Portafolio - Efecto hover con sombras y transición
-================================================ */
-.grid-proyectos {
+/*Grid Portafolio - Efecto hover con sombras y transición*/
+.grid-projects {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -91,13 +81,10 @@ nav a:hover {
 }
 
 .card img {
-  width: 100%;
   border-radius: 10px;
 }
 
-/* ================================================
-   Formulario de Contacto - Flexbox en columna
-================================================ */
+/*Formulario de Contacto - Flexbox en columna*/
 form {
   display: flex;
   flex-direction: column;
@@ -131,28 +118,34 @@ button:hover {
   background: #00bfa6;
 }
 
-/* ================================================
-   Footer
-================================================ */
+/*Footer*/
+
 footer {
   background: #111;
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
   color: #888;
+  display: flex;
+  justify-content: space-between;
 }
 
-/* ================================================
-   Animaciones - FadeIn general
-================================================ */
+.redes{
+  display: flex;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+
+/*Animaciones - FadeIn general*/
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ================================================
-   Media Queries - Diseño Responsivo
-================================================ */
+/*Media Queries - Diseño Responsivo*/
 
 /* Tablet: 768px */
 @media (max-width: 768px) {
@@ -166,7 +159,7 @@ footer {
     gap: 1rem;
   }
 
-  .seccion {
+  .section {
     padding: 3rem 1.5rem;
   }
 }
@@ -181,11 +174,11 @@ footer {
     align-items: center;
   }
 
-  .grid-proyectos {
+  .grid-projects {
     grid-template-columns: 1fr;
   }
 
-  .seccion {
+  .section {
     padding: 2rem 1rem;
   }
 }
