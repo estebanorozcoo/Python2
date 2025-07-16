@@ -1,0 +1,19 @@
+{
+  "name": "p_d",
+  "version": "1.0.0",
+  "description": "Proyecto para la prueba de desempeño de JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server ./json/db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

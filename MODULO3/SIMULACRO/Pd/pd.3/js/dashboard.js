@@ -1,1 +1,0 @@
-// Aquí irá la lógica para renderizar según el rol

@@ -1,1 +1,0 @@
-// Aquí irá la lógica CRUD para eventos
